@@ -1,5 +1,4 @@
 import webpack from 'webpack';
-import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
 
 type Options = {
   mode: 'development' | 'production';
@@ -15,6 +14,5 @@ export default function buildPlugins(
     new webpack.DefinePlugin({
       'process.env': JSON.stringify(process.env),
     }),
-    isDev && new ReactRefreshWebpackPlugin(),
   ].filter(Boolean);
 }
