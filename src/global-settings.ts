@@ -1,4 +1,10 @@
-export const ALL_HIERARCHY = true;
-export const MOUSE_TRIGGER = 'mousemove';
-export const KEYBOARD_TRIGGER = { eventName: 'keydown', key: 'F' };
+export const KEYBOARD_TRIGGERS_CLIPBOARD = {
+  xpathKey: 'X',
+  idKey: 'I',
+  dataTestIdKey: 'D',
+  textKey: 'T',
+  classKey: 'C',
+  hrefKey: 'H',
+  hierarchyKeys: ['1', '2', '3', '4'],
+};
 export const DEFAULT_NAME = 'PYTHON_LOCATOR';
