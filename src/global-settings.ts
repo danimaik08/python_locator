@@ -8,3 +8,4 @@ export const KEYBOARD_TRIGGERS_CLIPBOARD = {
   hierarchyKeys: ['1', '2', '3', '4'],
 };
 export const DEFAULT_NAME = 'PYTHON_LOCATOR';
+export const REACT_ROOT_ID = 'python_locator_root';
